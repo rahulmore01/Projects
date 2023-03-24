@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -15,13 +16,15 @@ body {
     /* Do not repeat the image */
     background-size: cover;
     /* Resize the background image to cover the entire container */
+    /* font-family: 'poppins', sans-serif; */
+
 }
 
 .nav {
     position: relative;
     padding: 0 2rem;
     width: 100%;
-    height: 80px;
+    height: 100px;
     margin: 0 auto;
     display: flex;
     /* background-color: aqua; */
@@ -29,12 +32,19 @@ body {
     justify-content: center;
 }
 
+#logo {
+    width: 30px;
+}
+
 .links {
-    gap: 2rem;
+    gap: 4rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     font-size: 1rem;
-
+    font-family: poppins;
+    transition: 1s;
 }
 
 a {
@@ -45,12 +55,15 @@ a {
 }
 
 a:hover {
+    transform: scale(1.5);
+    z-index: 2;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
 .text {
-    height: 80vh;
+    height: 85vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,11 +74,17 @@ a:hover {
 .title {
     font-size: 6rem;
     color: #fff;
+    font-family: 'roboto slab', serif;
+    font-weight: 300;
+    font-size: 80px;
 
 }
 
 .subtitle {
+    text-transform: capitalize;
+    font-size: 20px;
     color: #fff;
+    font-family: poppins;
 }
 
 /* 2nd screen starts */
@@ -82,7 +101,7 @@ a:hover {
 
 .text2 {
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,18 +109,24 @@ a:hover {
 }
 
 .title2 {
-    padding-top: 50px;
+    padding-top: 30px;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     justify-content: center;
+    font-family: poppins;
+font-weight: 400;
 }
 
 .subtitle2 {
-    padding-top: 30px;
-    width: 700px;
+    padding-top: 20px;
+    width: 600px;
     color: #fff;
     text-align: center;
+    font-family: poppins;
+    font-size: 16px;
+
 }
+
 .grid-img {
     height: 250px;
     border-radius: 20px;
@@ -123,8 +148,7 @@ a:hover {
     /* grid-auto-rows: 350px; */
     /* grid-template-columns: 300px 300px 300px 300px; */
     justify-content: center;
-    /* padding-bottom: 100px; */
-
+    margin: 50px;
 }
 
 #img-2 {
@@ -154,18 +178,29 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 40px;
+
+
 }
 
 .title3 {
-    padding: 30px;
-    font-size: 2.5rem;
+    padding: 20px;
+    font-size: 2.2rem;
+    font-family: poppins;
+font-weight: 400;
+}
+.subtitle3{
+    font-size: 16px;
+    font-family: poppins;
 
 }
 
+
+
+
 .cards4 {
     margin-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 
     display: flex;
     flex-direction: row;
@@ -175,38 +210,47 @@ a:hover {
 }
 
 .card {
+    font-family: poppins;
+    font-size: 16px;
     width: 250px;
     height: 250px;
     border: #2a2828 solid 1px;
     border-radius: 20px;
+    padding: 20px;
     color: #fff;
     display: flex;
     gap: 30px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
+    position: relative;
+    text-align: center;
 }
-
 .svg {
     width: auto;
     height: 70px;
 }
 
 /* 5th section */
-.blacksvg{
+.blacksvg {
     background-color: rgb(20, 20, 20);
     width: auto;
     height: 600px;
 }
-.flex{
+
+.flex {
     gap: 120px;
     background-color: rgb(20, 20, 20);
     display: flex;
     flex-direction: row;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
 }
-.blackbtn{
+
+.blackbtn {
+    font-family: poppins;
+
     width: 140px;
     height: 50px;
     color: white;
@@ -216,47 +260,61 @@ a:hover {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+
 .text5 {
     width: 400px;
     color: #fff;
-    gap: 36px;
+    gap: 30px;
     background-color: rgb(20, 20, 20);
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-bottom: 50px;
+   
+    /* padding-bottom: 50px; */
 }
 
 .title5 {
     /* padding: 30px; */
     font-size: 2.5rem;
+    font-family: poppins;
+    font-weight: 300;
 
 }
+.subtitle5{
+    font-family: poppins;
+    font-size: 16px;
+}
+
 /* 6th section  */
-.footer{
+.footer {
     width: 100%;
     height: auto;
     background-color: rgb(20, 20, 20);
 }
-.locationimg{
+
+.locationimg {
     width: 100px;
     height: auto;
     opacity: 50%;
 }
+
 .text6 {
-    line-height: 34px;
-    font-size: 20px;
+    font-family: poppins;
+
+    line-height: 30px;
+    font-size: 18px;
     color: #848484;
     display: flex;
     flex-direction: column;
     text-align: left;
-    /* padding-top: 100px; */
+    /* margin-top: 100px; */
 }
-.footerFlex{
+
+.footerFlex {
     padding: 50px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:300px
+    gap: 300px
 }
