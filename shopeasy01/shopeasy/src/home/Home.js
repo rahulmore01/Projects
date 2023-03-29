@@ -5,6 +5,7 @@ import Hero from "./hero/Hero"
 import "./Home.css";
 import Services from "./services/Services"
 import Features from "./features/Features";
+import Footer from "./footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <Services />
       <Features />
+      <Footer/>
       
     </>
   );
