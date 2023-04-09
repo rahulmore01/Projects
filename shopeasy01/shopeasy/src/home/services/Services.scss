@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.background {
+    height: 500px;
+    width: 100%;
+    background-color: #f7f6fe;
+    padding: 0 140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+}
+
+.service-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-title {
+    font-size: 14px;
+    color: #6351E9;
+    padding: 6px 0;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.services-heading {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card {
+
+    padding-top: 4px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iphone-img {
+    width: 300px;
+
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.money {
+    color: #6351E9;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 320px;
+    padding: 10px;
+}
+
+.content-1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    padding: 10px;
+}
+
+.content-0 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    padding: 10px;
+}
+
+.content-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    padding: 10px;
+}
+
+
+@media(width <=375px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .service-text {
+        width: 100%;
+    }
+
+    .services-heading {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .background {
+        height: 100%;
+        width: 100%;
+        padding: 0 0 0 0;
+        gap: 20px;
+
+    }
+
+    .cards {
+        gap: 20px;
+        flex-direction: column;
+        padding-bottom: 10px;
+
+    }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Features.css";
+import "./Features.scss";
 
 import { TbTruckDelivery } from "react-icons/tb";
 import { BiShieldQuarter } from "react-icons/bi";
@@ -10,7 +10,7 @@ import Trust from "../trust/Trust";
 const Features = () => {
   return (
     <div className="main-container">
-      <section className="container">
+      <section className="grid-container">
         <div className="icon-bg">
           <TbTruckDelivery className="icon" />
         </div>

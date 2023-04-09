@@ -1,5 +1,5 @@
 import React from "react";
-import "./Trust.css";
+import "./Trust.scss";
 
 const Trust = () => {
   return (
