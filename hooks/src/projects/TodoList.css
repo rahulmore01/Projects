@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: auto;
+    height: 100vh;
+    background-color: rgb(4, 45, 52);
+    color: rgb(19, 159, 159);
+
+}
+
+button:hover {
+
+    background-color: rgb(14, 103, 147);
+    color: black;
+
+}
+
+
+.h1style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    font-weight: 200;
+    font-size: 22px;
+    gap: 30px;
+}
+
+.card-btn {
+    padding: 8px 24px 8px 24px;
+    background-color: rgb(246, 34, 34);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+
+.todo-btn {
+    /* padding: 12px 34px 8px 12px; */
+    background-color: rgb(246, 34, 34);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    transition: 0.4s;
+    width: 140px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+
