@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  list-style-type: none;
+  
+  }
+  
+  :root {
+    /* fonts */
+    --font-lato: Lato;
+    --font-roboto: Roboto;
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-3xl: 22px;
+    --font-size-xl: 20px;
+    --font-size-sm: 14px;
+    --font-size-29xl: 48px;
+    --font-size-smi: 13px;
+    --font-size-mid: 17px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-silver: #c4c4c4;
+    --color-royalblue: #0163e0;
+    --color-dodgerblue-100: #0d8fee;
+    --color-dodgerblue-200: #0a8eee;
+    --color-dodgerblue-300: #0089ed;
+    --color-black: #000;
+    --color-midnightblue: #0b036b;
+    --color-blueviolet: #794bff;
+    --color-darkslategray: #484848;
+  
+    /* border radiuses */
+    --br-3xs: 10px;
+    --br-mini: 15px;
+    --br-4xs: 9px;
+    --br-2xs: 11px;
+    --br-61xl: 80px;
+  }
+  
