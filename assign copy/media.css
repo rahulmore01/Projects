@@ -1,0 +1,264 @@
+/* hero */
+@media(width <=414px) {
+    .container {
+        width: 414px;
+        height: 160vh;
+    }
+
+    .hero-background {
+        width: 414px;
+        height: 100%;
+    }
+
+    .top-flex {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .top-flex .null {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img img {
+        width: 340px;
+        margin-top: 70px;
+    }
+
+    .text {
+        width: 400px;
+        text-align: center;
+        align-items: center;
+
+        /* gap: 20px; */
+    }
+
+    .top-flex h1 {
+        width: auto;
+        font-weight: 600;
+        font-size: 42px;
+    }
+
+    .top-flex .null img {
+        width: 38px;
+    }
+
+    /* herocards */
+    .cards {
+        flex-direction: column;
+
+        gap: 40px;
+    }
+
+    /* popular courses */
+    .course-container {
+
+        height: 100%;
+        margin-top: 100px;
+        line-height: 20px;
+    }
+
+    .course-heading p {
+
+        font-size: 18px;
+    }
+
+    .courses {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    /* eco */
+    .eco-bg {
+
+        width: 414px;
+        height: 100%;
+    }
+
+    .eco-container {
+
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .left-images img {
+        width: 360px;
+    }
+
+    .text {
+        align-items: center;
+    }
+
+    .eco-heading {
+        font-size: 36px;
+
+    }
+
+    .cards3 {
+        width: 414px;
+        background-color: var(--color-dodgerblue-300);
+        gap: 0px;
+    }
+
+    .eco-icon-bg img {
+        width: 36px;
+        padding-top: 2px;
+    }
+
+    .eco-card1 {
+        gap: 20px;
+        margin-bottom: 40px;
+
+    }
+
+    .eco-text1 h1 {
+        font-size: 20px;
+        text-align: start;
+
+    }
+
+    .eco-text1 p {
+        text-align: start;
+        font-size: 14px;
+    }
+
+    /* solution */
+    .solution-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .solution-img img {
+        width: 400px;
+
+    }
+
+    .solution-text {
+        width: 414px;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .solution-text h1 {
+        margin-bottom: 12px;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .solution-text p {
+        text-align: center;
+        font-size: 14px;
+        width: 400px;
+    }
+
+    .solution-btn {
+        font-size: 18px;
+    }
+
+    /* testimonial */
+    .testimonial-container {
+        margin-top: 150px;
+        width: 414px;
+
+    }
+
+    .testimonial-hedaer h1 {
+        font-size: 36px;
+    }
+
+    .testimonial-hedaer p {
+        font-size: 14px;
+        width: 400px;
+    }
+
+    .test-card img {
+        width: 90px;
+
+    }
+
+    .joe {
+        font-size: 20px;
+    }
+
+    .wrapper {
+
+        gap: 50px;
+    }
+
+    .test-card {
+        font-size: 18px;
+        width: 320px;
+        height: 250px;
+    }
+
+    /* footer */
+    .footer-container {
+        margin-top: 100px;
+        width: 100%;
+        height: 110vh;
+    }
+
+    .head-footer {
+        flex-direction: column;
+        margin-bottom: 0px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .bottom-footer {
+        background-color: var(--color-dodgerblue-100);
+        height: 65px;
+
+    }
+    .line {
+
+        width: 380px;
+        height: 1px;
+        background-color: rgb(218, 218, 218);
+      }
+
+    .ftr-flex a {
+        padding: 6px 20px 6px 20px;
+    }
+    .ftr-flex p{
+        display: none;
+    }
+
+    .ftr-flex {
+        align-items: center;
+    }
+    /* form */
+    .form {
+
+        width: 400px;
+        height: 600px;
+        border: 2px solid var(--color-royalblue);
+  transform: translate(0%, 0%)
+
+      }
+      .form h1 {
+       margin: 10px;
+        font-size: 36px;
+      }
+      .form p {
+        font-size: 14px;
+        width: 380px;
+      }
+      
+      .form input {
+        width: 350px;
+        height: 60px;
+        font-size: 20px;
+      }
+      
+      .form .submit {
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+      }
+}
