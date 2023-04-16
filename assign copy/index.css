@@ -31,13 +31,13 @@ body {
 
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
 
 }
 
 .top-flex h1 {
   font-weight: 600;
-  font-size: 64px;
+  font-size: 62px;
 }
 
 .top-flex p {
@@ -329,7 +329,8 @@ a {
 .eco-bg {
   background-image: url(./images/main/eco-bg.svg);
   width: auto;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 110%;
 }
 
 .eco-container {
@@ -337,7 +338,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 40px;
 }
 
 .eco-heading {
@@ -349,7 +350,7 @@ a {
 }
 
 .left-images img {
-  width: 700px;
+  width: 600px;
 }
 
 .eco-icon-bg {
@@ -365,7 +366,8 @@ a {
   padding-top: 2px;
 }
 
-.text {
+.eco-text {
+  width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -572,7 +574,7 @@ a {
 .footer-bg {
   background-image: url(./images/main/ftr-bg.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .down {
