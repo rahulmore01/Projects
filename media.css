@@ -1,0 +1,810 @@
+/* hero */
+/* @media(width <=414px) { */
+@media screen and (max-width:414px) {
+    body {
+        width: 414px;
+
+    }
+
+    .container {
+        width: 414px;
+        height: 160vh;
+    }
+
+    .hero-background {
+        width: 414px;
+        height: 100%;
+    }
+
+    .navbar {
+        width: 414px;
+    }
+
+    .top-flex {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .top-flex .null {
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img img {
+        width: 340px;
+        margin-top: 70px;
+    }
+
+    .text {
+        width: 400px;
+        text-align: center;
+        align-items: center;
+
+        /* gap: 20px; */
+    }
+
+    .top-flex h1 {
+        width: auto;
+        font-weight: 600;
+        font-size: 42px;
+    }
+
+    .top-flex .null img {
+        width: 38px;
+    }
+
+    /* herocards */
+    .cards {
+        flex-direction: column;
+
+        gap: 40px;
+    }
+
+    /* popular courses */
+    .course-container {
+
+        height: 100%;
+        margin-top: 100px;
+        line-height: 20px;
+    }
+
+    .course-heading p {
+
+        font-size: 18px;
+    }
+
+    .courses {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    /* eco */
+    .eco-bg {
+
+        width: 414px;
+        height: 100%;
+    }
+
+    .eco-container {
+
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .left-images img {
+        width: 360px;
+    }
+
+    .text {
+        align-items: center;
+    }
+    .eco-text {
+        width: 400px;
+      }
+    .eco-heading {
+        font-size: 36px;
+
+    }
+
+    .cards3 {
+        width: 414px;
+        background-color: var(--color-dodgerblue-300);
+        gap: 0px;
+    }
+
+    .eco-icon-bg img {
+        width: 36px;
+        padding-top: 2px;
+    }
+
+    .eco-card1 {
+        gap: 20px;
+        margin-bottom: 40px;
+
+    }
+
+    .eco-text1 h1 {
+        font-size: 20px;
+        text-align: start;
+
+    }
+
+    .eco-text1 p {
+        text-align: start;
+        font-size: 14px;
+    }
+
+    /* solution */
+    .solution-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .solution-img img {
+        width: 400px;
+
+    }
+
+    .solution-text {
+        width: 414px;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .solution-text h1 {
+        margin-bottom: 12px;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .solution-text p {
+        text-align: center;
+        font-size: 14px;
+        width: 400px;
+    }
+
+    .solution-btn {
+        font-size: 18px;
+    }
+
+    /* testimonial */
+    .testimonial-container {
+        margin-top: 150px;
+        width: 414px;
+
+    }
+
+    .testimonial-hedaer h1 {
+        font-size: 36px;
+        width: 414px;
+    }
+
+    .testimonial-hedaer {
+        width: 414px;
+    }
+
+    .testimonial-hedaer p {
+        font-size: 14px;
+        width: 400px;
+    }
+
+    .test-card img {
+        width: 90px;
+
+    }
+
+    .joe {
+        font-size: 20px;
+    }
+
+    .wrapper {
+
+        gap: 50px;
+    }
+
+    .test-card {
+        font-size: 18px;
+        width: 320px;
+        height: 250px;
+    }
+
+    /* footer */
+    .footer-container {
+        margin-top: 100px;
+        width: 100%;
+        height: 110vh;
+    }
+
+    .head-footer {
+        flex-direction: column;
+        margin-bottom: 0px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .bottom-footer {
+        background-color: var(--color-dodgerblue-100);
+        height: 65px;
+
+    }
+
+    .line {
+
+        width: 380px;
+        height: 1px;
+        background-color: rgb(218, 218, 218);
+    }
+
+    .ftr-flex a {
+        padding: 6px 20px 6px 20px;
+    }
+
+    .ftr-flex p {
+        display: none;
+    }
+
+    .ftr-flex {
+        align-items: center;
+    }
+
+    /* form */
+    .form {
+
+        width: 400px;
+        height: 600px;
+        border: 2px solid var(--color-royalblue);
+        transform: translate(0%, 0%)
+    }
+
+    .form h1 {
+        margin: 10px;
+        font-size: 36px;
+    }
+
+    .form p {
+        font-size: 14px;
+        width: 380px;
+    }
+
+    .form input {
+        width: 350px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .form .submit {
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+
+
+    .top-flex {
+        gap: 50px;
+
+    }
+
+    .img img {
+        width: 500px;
+        height: auto;
+    }
+
+    .text {
+        width: auto;
+
+    }
+
+    /* ecosystem */
+    .eco-bg {
+        background-position: center;
+        height: 100%;
+    }
+
+    .eco-container {
+
+        gap: 50px;
+    }
+
+    .left-images img {
+        width: 500px;
+    }
+
+    .eco-icon-bg {
+
+        padding: 8px 10px 8px 10px;
+    }
+
+    .eco-icon-bg img {
+        width: 30px;
+        padding-top: 2px;
+    }
+
+    .eco-heading {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    /* footer */
+    .head-footer {
+        margin-bottom: 0px;
+        gap: 40px;
+    }
+
+    .form {
+
+        width: 620px;
+        height: 410px;
+        border-radius: 18px;
+        transform: translate(0%, -45%)
+    }
+
+    .form h1 {
+
+        margin-bottom: 4px;
+        margin-top: 4px;
+        font-size: 42px;
+    }
+
+    .form p {
+
+        width: 520px;
+    }
+
+    .form input {
+        width: 320px;
+        height: 68px;
+        font-size: 24px;
+
+    }
+
+    .form .submit {
+        color: white;
+        background-color: var(--color-royalblue);
+        border-radius: 8px;
+        border: transparent;
+        width: 210px;
+        height: 55px;
+        font-size: 24px;
+        font-family: var(--font-lato);
+        margin-top: 8px;
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .hero-flex {
+
+        gap: 150px;
+      }
+    .top-flex {
+        gap: 20px;
+      
+      }
+    ul {
+        gap: 10px;
+      }
+      .text .heading{
+        font-size: 42px;
+      }
+.text {
+  width: 350px;
+
+}
+    /* hero */
+    .img img {
+        width: 350px;
+      }
+    .cards {
+        gap: 28px;
+    }
+
+    /* courses */
+    .course-container {
+        height: 50vh;
+    }
+    .course-heading h1 {
+        font-size: 32px;
+      }
+    .courses {
+        gap: 30px;
+    }
+
+    .course-img {
+        width: 160px;
+    }
+
+    .course-details {
+        width: 160px;
+    }
+
+    .course-details p {
+        width: 150px;
+    }
+
+    .course-h1 {
+        font-size: 20px;
+    }
+
+    .course-h2 {
+        font-size: 20px;
+    }
+
+    .course-h3 {
+        font-size: 20px;
+    }
+
+    .course p {
+        font-size: 12px;
+    }
+
+    /* ecosystem */
+    .eco-bg {
+        background-position: center;
+        height: 100%;
+    }
+
+    .eco-container {
+        gap: 40px;
+        padding: 40px 0 40px 0;
+    }
+
+    .left-images img {
+        width: 350px;
+    }
+
+    .eco-heading {
+        font-size: 32px;
+        margin-bottom: 24px;
+        width: 320px;
+    }
+
+    .eco-icon-bg {
+
+        padding: 8px 10px 8px 10px;
+    }
+
+    .eco-icon-bg img {
+        width: 30px;
+        padding-top: 2px;
+    }
+
+    .eco-card1 {
+        gap: 20px;
+    }
+
+    .eco-text1 p {
+
+        width: 260px;
+    }
+
+    /* footer */
+    .footer-container {
+        margin-top: 0px;
+
+        width: 100%;
+        height: 110vh;
+      }
+    .head-footer {
+        margin-bottom: 0px;
+        gap: 10px;
+    }
+    .ftr-flex a {
+        padding: 10px 14px 10px 14px;
+        font-size: 14px;
+      }
+      
+      .ftr-flex h1 {
+        padding: 10px 14px 10px 14px;
+        font-size: 20px;
+      }
+
+    .form {
+
+        width: 500px;
+        height: 340px;
+        border-radius: 18px;
+        transform: translate(0%, -65%)
+    }
+
+    .form h1 {
+font-size: 36px;
+        margin-bottom: 0px;
+        margin-top: 4px;
+        font-size: 36px;
+    }
+
+    .form p {
+
+        width: 420px;
+    }
+
+    .form input {
+        width: 300px;
+        height: 60px;
+        font-size: 20px;
+
+    }
+
+    .form .submit {
+        border-radius: 8px;
+
+        width: 170px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    /* solution */
+    .solution-container {
+        height: 70vh;
+        gap: 0px;
+    }
+
+    .solution-img img {
+        width: 300px;
+    }
+
+    .solution-text {
+        width: 350px;
+    }
+
+    .solution-text h1 {
+        margin-bottom: 12px;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: left;
+    }
+/* testimonial */
+.testimonial-hedaer h1 {
+    color: var(--color-dodgerblue-300);
+    font-family: var(--font-lato);
+    font-size: 32px;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 415px) {
+    body{
+        width: 600px;
+    }
+    .hero-flex {
+        gap: 120px;
+      }
+    .hero-background {
+        width: 600px;
+      }
+    ul {
+        
+        gap: 20px;
+        text-align: center;
+        padding-right: 0px;
+      }
+      .img img {
+        width: 250px;
+      }
+      .top-flex .text{
+        width: 220px;
+      }
+      .top-flex p {
+        line-height: 20px;
+        font-size: 17px;
+      }
+.text .heading{
+    font-size: 32px;
+}
+      .cards {
+        gap: 30px;
+      }
+      .card {
+        height: 155px;
+        width: 130px;
+        border-radius: 18px;
+      }
+/* courses section */
+.courses {
+    gap: 35px;
+  }
+  .course{
+    width: 140px;
+
+  }
+  .course-img{
+    width: 140px;
+  }
+  .course-h1 {
+    padding-top: 8px;
+    font-size: 20px;
+  }
+  .course-h2 {
+    padding-top: 8px;
+    font-size: 20px;
+  }
+  .course-h3 {
+    padding-top: 8px;
+    font-size: 20px;
+  }
+.course-details .courses-p {
+
+    width: 140px;
+
+  }
+  /* ecosystem */
+  .eco-container {
+    gap: 20px;
+  }
+  .eco-bg {
+    height: 100vh;
+  }
+  .left-images img {
+    width: 300px;
+  }
+  .eco-heading {
+    font-size: 24px;
+    margin-bottom: 24px;
+    width: 220px;
+}
+
+.eco-icon-bg {
+
+    padding: 8px 10px 8px 10px;
+}
+
+.eco-icon-bg img {
+    width: 20px;
+    padding-top: 2px;
+}
+
+.eco-card1 {
+    gap: 10px;
+} 
+.eco-text {
+    width: 220px;
+
+  }
+ .eco-text1 p {
+    font-size: 12px;
+
+    width: 170px;
+}
+ .eco-text1 h1 {
+
+    font-size: 18px;
+}
+/* <!-- solution section --> */
+.solution-container {
+    gap: 0px;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+.solution-img img {
+    width: 220px;
+  padding-bottom: 40px;
+
+
+  }
+  .solution-text {
+    width: 200px;
+  }
+  .solution-text h1 {
+    padding-bottom: 12px;
+
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .solution-text p {
+    font-size: 14px;
+  
+  }
+  
+  .solution-btn {
+
+    font-size: 14px;
+  }
+/* testimonial */
+.testimonial-hedaer {
+
+    width: 360px;
+    gap: 24px;
+  }
+.testimonial-hedaer h1 {
+    font-size: 24px;
+  }
+  .testimonial-hedaer p {
+    font-size: 14px;
+  }
+  .test-card img {
+    width: 100px;
+  }
+  .wrapper {
+    gap: 70px;
+  }
+  .test-card {
+
+    font-size: 16px;
+    width: 360px;
+    height: 190px;
+  }
+  .joe {
+
+    font-size: 20px;
+  
+  }
+  /* footer */
+  .footer-container {
+    margin-top: 100px;
+
+    height: 100%;
+  }
+  .head-footer {
+    gap: 0px;
+  }
+  .ftr-flex h1 {
+    font-family: var(--font-lato);
+    font-weight: 400;
+    padding: 6px 10px 6px 10px;
+    font-size: 18px;
+  }
+  .ftr-flex a {
+    font-size: 14px;
+    padding: 6px 10px 6px 10px;
+
+  
+  }
+  .left {
+    width: 130px;
+    font-size: 14px;
+  }
+  .ftr-flex p {
+    font-size: 14px;
+  
+  }
+  .line {
+    width: 350px;
+  }
+  .copywrite {
+    font-size: 16px;
+  }
+  .form {
+    width: 380px;
+    height: 240px;
+  }
+  .form h1 {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-size: 24px;
+  }
+  
+  .form p {
+    font-size: 14px;
+    width: 350px;
+  }
+  
+  .form input {
+    width: 200px;
+    height: 55px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+.form .submit {
+    border-radius: 6px;
+    width: 110px;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+  }
+
+}
