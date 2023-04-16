@@ -681,38 +681,130 @@ font-size: 36px;
     font-size: 18px;
 }
 /* <!-- solution section --> */
-
+.solution-container {
+    gap: 0px;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 .solution-img img {
     width: 220px;
+  padding-bottom: 40px;
+
 
   }
+  .solution-text {
+    width: 200px;
+  }
   .solution-text h1 {
-    padding-bottom: 16px;
-    color: var(--color-dodgerblue-300);
-    font-family: var(--font-lato);
+    padding-bottom: 12px;
+
     font-size: 24px;
-    line-height: 32px;
+    line-height: 28px;
   }
   
   .solution-text p {
-    font-size: var(--font-size-lg);
-    font-weight: 300;
-    font-family: var(--font-lato);
+    font-size: 14px;
   
   }
   
   .solution-btn {
-    color: var(--color-dodgerblue-300);
-    font-size: 22px;
-    font-weight: 500;
-    font-family: var(--font-lato);
-    border: solid var(--color-dodgerblue-300);
-    border-radius: 6px;
-    padding: 6px 18px 6px 18px;
-    background-color: white;
-    margin-top: 14px;
-    cursor: pointer;
-    text-transform: capitalize;
+
+    font-size: 14px;
+  }
+/* testimonial */
+.testimonial-hedaer {
+
+    width: 360px;
+    gap: 24px;
+  }
+.testimonial-hedaer h1 {
+    font-size: 24px;
+  }
+  .testimonial-hedaer p {
+    font-size: 14px;
+  }
+  .test-card img {
+    width: 100px;
+  }
+  .wrapper {
+    gap: 70px;
+  }
+  .test-card {
+
+    font-size: 16px;
+    width: 360px;
+    height: 190px;
+  }
+  .joe {
+
+    font-size: 20px;
   
   }
+  /* footer */
+  .footer-container {
+    margin-top: 100px;
+
+    height: 100%;
+  }
+  .head-footer {
+    gap: 0px;
+  }
+  .ftr-flex h1 {
+    font-family: var(--font-lato);
+    font-weight: 400;
+    padding: 6px 10px 6px 10px;
+    font-size: 18px;
+  }
+  .ftr-flex a {
+    font-size: 14px;
+    padding: 6px 10px 6px 10px;
+
+  
+  }
+  .left {
+    width: 130px;
+    font-size: 14px;
+  }
+  .ftr-flex p {
+    font-size: 14px;
+  
+  }
+  .line {
+    width: 350px;
+  }
+  .copywrite {
+    font-size: 16px;
+  }
+  .form {
+    width: 380px;
+    height: 240px;
+  }
+  .form h1 {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-size: 24px;
+  }
+  
+  .form p {
+    font-size: 14px;
+    width: 350px;
+  }
+  
+  .form input {
+    width: 200px;
+    height: 55px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+.form .submit {
+    border-radius: 6px;
+    width: 110px;
+    height: 50px;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+  }
+
 }
