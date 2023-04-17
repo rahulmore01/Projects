@@ -6,6 +6,13 @@
   list-style-type: none;
   
   }
+  html{
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  
+  }
   
   :root {
     /* fonts */

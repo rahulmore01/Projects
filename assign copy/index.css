@@ -1,3 +1,6 @@
+html{
+  overflow-x: hidden;
+}
 body {
   width: auto;
   height: 100%;
@@ -5,6 +8,7 @@ body {
 
   /* font-family: var(--font-poppins); */
   font-weight: 100;
+  overflow-x: hidden;
 
 }
 
@@ -86,7 +90,6 @@ body {
   width: 550px;
   height: auto;
 }
-
 .navbar {
   color: white;
   position: absolute;
@@ -98,6 +101,23 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+/* hamburger menu */
+.mobile-nav-btn{
+
+display: none;
+background: transparent;
+cursor: pointer;
+margin-right: 20px;
+
+}
+.mobile-nav-icon{
+width: 36px;
+height: 36px;
+}
+.mobile-nav-btn [name="close-outline"]{
+display: none;
+}
+/* hamburger menu */
 
 ul {
   display: flex;
@@ -688,7 +708,6 @@ footer {
   background-color: white;
   border-radius: 20px;
   border: 3px solid var(--color-royalblue);
-  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;

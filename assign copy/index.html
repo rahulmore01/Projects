@@ -17,7 +17,9 @@
 
     <section>
         <header>
-            <nav class="navbar">
+            <!-- we will be accessing the "active" class through dom so toggle the menu  -->
+            <nav class="navbar ">
+            <!-- <nav class="navbar active"> -->
                 <ul>
                     <li><a href="#">Product <img src="./images/main/down.svg" alt=""></a></li>
                     <li><a href="#">About Us</a></li>
@@ -29,7 +31,14 @@
                         <li><button class="Sign-btn">Sign Up</button> </li>
                     </div>
                 </ul>
+                <!-- hamburger -->
+                <div class="mobile-nav-btn">
+                    <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                    <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+                </div>
             </nav>
+
+
         </header>
         <main class="hero-background hero-flex">
             <div class="top-flex">
@@ -46,7 +55,8 @@
                     </p>
                     <div class="null">
                         <img src="./images/main/null.svg" alt="">
-                        <h3> Whats Null?</h3></div>
+                        <h3> Whats Null?</h3>
+                    </div>
                 </div>
             </div>
             <div class="cards">
@@ -91,7 +101,8 @@
                 </div>
                 <div class="course-details">
                     <h1 class="course-h1">creative writing</h1>
-                    <p class="courses-p">Creative Writing : Creative writing is any writing that goes outside the bounds of normal
+                    <p class="courses-p">Creative Writing : Creative writing is any writing that goes outside the bounds
+                        of normal
                         professional</p>
 
                 </div>
@@ -109,11 +120,12 @@
             </div>
             <div class="course">
                 <div>
-                    <img class="course-img"  src="./images/main/c2.png" alt="">
+                    <img class="course-img" src="./images/main/c2.png" alt="">
                 </div>
                 <div class="course-details">
                     <h1 class="course-h2">creative writing</h1>
-                    <p class="courses-p">Creative Writing : Creative writing is any writing that goes outside the bounds of normal
+                    <p class="courses-p">Creative Writing : Creative writing is any writing that goes outside the bounds
+                        of normal
                         professional</p>
                 </div>
                 <div class="card-footer">
@@ -130,11 +142,12 @@
             </div>
             <div class="course">
                 <div>
-                    <img class="course-img"  src="./images/main/c3.png" alt="">
+                    <img class="course-img" src="./images/main/c3.png" alt="">
                 </div>
                 <div class="course-details">
                     <h1 class="course-h3">creative writing</h1>
-                    <p class="courses-p">Creative Writing : Creative writing is any writing that goes outside the bounds of normal
+                    <p class="courses-p">Creative Writing : Creative writing is any writing that goes outside the bounds
+                        of normal
                         professional</p>
                 </div>
                 <div class="card-footer">
@@ -232,7 +245,8 @@
     <section class="footer-container footer-bg down">
         <div class="form">
             <h1>start learning today</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minima, quisquam odit dolores odio ipsum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minima, quisquam odit dolores
+                odio ipsum.</p>
             <input type="text" placeholder="Full name">
             <input type="text" placeholder="E-Mail">
             <button class="submit">Submit</button>
@@ -281,6 +295,9 @@
             </div>
         </footer>
     </section>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

@@ -100,9 +100,11 @@
     .text {
         align-items: center;
     }
+
     .eco-text {
         width: 400px;
-      }
+    }
+
     .eco-heading {
         font-size: 36px;
 
@@ -180,6 +182,7 @@
     .testimonial-hedaer h1 {
         font-size: 36px;
         width: 414px;
+        text-align: center;
     }
 
     .testimonial-hedaer {
@@ -215,7 +218,7 @@
     .footer-container {
         margin-top: 100px;
         width: 100%;
-        height: 110vh;
+        height: 100%;
     }
 
     .head-footer {
@@ -226,7 +229,6 @@
     }
 
     .bottom-footer {
-        background-color: var(--color-dodgerblue-100);
         height: 65px;
 
     }
@@ -254,7 +256,7 @@
     .form {
 
         width: 400px;
-        height: 600px;
+        height: 360px;
         border: 2px solid var(--color-royalblue);
         transform: translate(0%, 0%)
     }
@@ -381,28 +383,101 @@
 }
 
 @media screen and (max-width: 800px) and (min-width: 600px) {
+    html{
+        overflow-x: hidden;
+      }
+      body {
+        overflow-x: hidden;
+      
+      }
+      .container {
+       overflow-x: hidden;
+      }
     .hero-flex {
 
         gap: 150px;
-      }
+    }
+
     .top-flex {
+        gap: 20px;
+
+    }
+
+    /* hamburgermenu */
+    .navbar .mobile-nav-btn {
+        display: block;
+        z-index: 999;
+        border: 2px solid white;
+    }
+
+    nav {
+        position: relative;
+
+
+    }
+
+    ul {
+        /* display: none; */
+        position:fixed !important;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--color-dodgerblue-100);
+        position: absolute;
+        /* to stretch and fill the screen with no gap */
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* for left animation */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        /* to remove it from right side */
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .active ul{
+        transform: translateX(0);
+
+        opacity: 1;
+        visibility: visible;
+
+    }
+    .active .mobile-nav-btn .mobile-nav-icon[name="close-outline"]{
+        display: block;
+    }
+    .active .mobile-nav-btn .mobile-nav-icon[name="menu-outline"]{
+        display: none;
+    }
+    .btn-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
       
       }
-    ul {
-        gap: 10px;
-      }
-      .text .heading{
-        font-size: 42px;
-      }
-.text {
-  width: 350px;
 
-}
+    /* hamburgermenu */
+
+
+    .text .heading {
+        font-size: 42px;
+    }
+
+    .text {
+        width: 350px;
+
+    }
+
     /* hero */
     .img img {
         width: 350px;
-      }
+    }
+
     .cards {
         gap: 28px;
     }
@@ -411,9 +486,11 @@
     .course-container {
         height: 50vh;
     }
+
     .course-heading h1 {
         font-size: 32px;
-      }
+    }
+
     .courses {
         gap: 30px;
     }
@@ -492,20 +569,22 @@
 
         width: 100%;
         height: 110vh;
-      }
+    }
+
     .head-footer {
         margin-bottom: 0px;
         gap: 10px;
     }
+
     .ftr-flex a {
         padding: 10px 14px 10px 14px;
         font-size: 14px;
-      }
-      
-      .ftr-flex h1 {
+    }
+
+    .ftr-flex h1 {
         padding: 10px 14px 10px 14px;
         font-size: 20px;
-      }
+    }
 
     .form {
 
@@ -516,7 +595,7 @@
     }
 
     .form h1 {
-font-size: 36px;
+        font-size: 36px;
         margin-bottom: 0px;
         margin-top: 4px;
         font-size: 36px;
@@ -543,6 +622,7 @@ font-size: 36px;
         margin-top: 8px;
         margin-bottom: 8px;
     }
+
     /* solution */
     .solution-container {
         height: 70vh;
@@ -563,248 +643,358 @@ font-size: 36px;
         line-height: 38px;
         text-align: left;
     }
-/* testimonial */
-.testimonial-hedaer h1 {
-    color: var(--color-dodgerblue-300);
-    font-family: var(--font-lato);
-    font-size: 32px;
-  }
+
+    /* testimonial */
+
+    .testimonial-hedaer h1 {
+        color: var(--color-dodgerblue-300);
+        font-family: var(--font-lato);
+        font-size: 32px;
+
+
+    }
 
 }
 
 
 @media screen and (max-width: 600px) and (min-width: 415px) {
-    body{
+    body {
         width: 600px;
     }
+    .navbar{
+        width: 600px;
+    }
+
     .hero-flex {
         gap: 120px;
-      }
+    }
+
     .hero-background {
         width: 600px;
-      }
+    }
+
     ul {
-        
-        gap: 20px;
+
+        gap: 50px;
         text-align: center;
         padding-right: 0px;
-      }
-      .img img {
+    }
+
+    .img img {
         width: 250px;
-      }
-      .top-flex .text{
+    }
+
+    .top-flex .text {
         width: 220px;
-      }
-      .top-flex p {
+    }
+
+    .top-flex p {
         line-height: 20px;
         font-size: 17px;
-      }
-.text .heading{
-    font-size: 32px;
-}
-      .cards {
+    }
+
+    .text .heading {
+        font-size: 32px;
+    }
+
+    .cards {
         gap: 30px;
-      }
-      .card {
+    }
+
+    .card {
         height: 155px;
         width: 130px;
         border-radius: 18px;
-      }
-/* courses section */
-.courses {
-    gap: 35px;
-  }
-  .course{
-    width: 140px;
+    }
 
-  }
-  .course-img{
-    width: 140px;
-  }
-  .course-h1 {
-    padding-top: 8px;
-    font-size: 20px;
-  }
-  .course-h2 {
-    padding-top: 8px;
-    font-size: 20px;
-  }
-  .course-h3 {
-    padding-top: 8px;
-    font-size: 20px;
-  }
-.course-details .courses-p {
+    /* courses section */
+    .courses {
+        gap: 35px;
+    }
 
-    width: 140px;
+    .course {
+        width: 140px;
 
-  }
-  /* ecosystem */
-  .eco-container {
+    }
+
+    .course-img {
+        width: 140px;
+    }
+
+    .course-h1 {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+
+    .course-h2 {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+
+    .course-h3 {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+
+    .course-details .courses-p {
+
+        width: 140px;
+
+    }
+
+    /* ecosystem */
+    .eco-container {
+        gap: 20px;
+    }
+
+    .eco-bg {
+        height: 100vh;
+    }
+
+    .left-images img {
+        width: 300px;
+    }
+
+    .eco-heading {
+        font-size: 24px;
+        margin-bottom: 24px;
+        width: 220px;
+    }
+
+    .eco-icon-bg {
+
+        padding: 8px 10px 8px 10px;
+    }
+
+    .eco-icon-bg img {
+        width: 20px;
+        padding-top: 2px;
+    }
+
+    .eco-card1 {
+        gap: 10px;
+    }
+
+    .eco-text {
+        width: 220px;
+
+    }
+
+    .eco-text1 p {
+        font-size: 12px;
+
+        width: 170px;
+    }
+
+    .eco-text1 h1 {
+
+        font-size: 18px;
+    }
+
+    /* <!-- solution section --> */
+    .solution-container {
+        gap: 0px;
+        height: 100%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .solution-img img {
+        width: 220px;
+        padding-bottom: 40px;
+
+
+    }
+
+    .solution-text {
+        width: 200px;
+    }
+
+    .solution-text h1 {
+        padding-bottom: 12px;
+
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .solution-text p {
+        font-size: 14px;
+
+    }
+
+    .solution-btn {
+
+        font-size: 14px;
+    }
+
+    /* testimonial */
+    .testimonial-hedaer {
+
+        width: 360px;
+        gap: 24px;
+    }
+
+    .testimonial-hedaer h1 {
+        font-size: 24px;
+    }
+
+    .testimonial-hedaer p {
+        font-size: 14px;
+    }
+
+    .test-card img {
+        width: 100px;
+    }
+
+    .wrapper {
+        gap: 70px;
+    }
+
+    .test-card {
+
+        font-size: 16px;
+        width: 360px;
+        height: 190px;
+    }
+
+    .joe {
+
+        font-size: 20px;
+
+    }
+
+    /* footer */
+    .footer-container {
+        margin-top: 100px;
+
+        height: 100%;
+    }
+
+    .head-footer {
+        gap: 0px;
+    }
+
+    .ftr-flex h1 {
+        font-family: var(--font-lato);
+        font-weight: 400;
+        padding: 6px 10px 6px 10px;
+        font-size: 18px;
+    }
+
+    .ftr-flex a {
+        font-size: 14px;
+        padding: 6px 10px 6px 10px;
+
+
+    }
+
+    .left {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .ftr-flex p {
+        font-size: 14px;
+
+    }
+
+    .line {
+        width: 350px;
+    }
+
+    .copywrite {
+        font-size: 16px;
+    }
+
+    .form {
+        width: 380px;
+        height: 240px;
+    }
+
+    .form h1 {
+        margin-bottom: 6px;
+        margin-top: 6px;
+        font-size: 24px;
+    }
+
+    .form p {
+        font-size: 14px;
+        width: 350px;
+    }
+
+    .form input {
+        width: 200px;
+        height: 55px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+
+    .form .submit {
+        border-radius: 6px;
+        width: 110px;
+        height: 50px;
+        font-size: 14px;
+        margin-bottom: 8px;
+
+    }
+
+}
+@media screen and (max-width: 800px) and (min-width: 0px) {
+.navbar .mobile-nav-btn {
+    display: block;
+    z-index: 999;
+    border: 2px solid white;
+    position: fixed;
+}
+
+nav {
+    position: relative;
+
+
+}
+
+ul {
+    /* display: none; */
+    position:fixed !important;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-dodgerblue-100);
+    position: absolute;
+    /* to stretch and fill the screen with no gap */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* for left animation */
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    /* to remove it from right side */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.active ul{
+    transform: translateX(0);
+
+    opacity: 1;
+    visibility: visible;
+
+}
+.active .mobile-nav-btn .mobile-nav-icon[name="close-outline"]{
+    display: block;
+}
+.active .mobile-nav-btn .mobile-nav-icon[name="menu-outline"]{
+    display: none;
+}
+.btn-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-  }
-  .eco-bg {
-    height: 100vh;
-  }
-  .left-images img {
-    width: 300px;
-  }
-  .eco-heading {
-    font-size: 24px;
-    margin-bottom: 24px;
-    width: 220px;
-}
-
-.eco-icon-bg {
-
-    padding: 8px 10px 8px 10px;
-}
-
-.eco-icon-bg img {
-    width: 20px;
-    padding-top: 2px;
-}
-
-.eco-card1 {
-    gap: 10px;
-} 
-.eco-text {
-    width: 220px;
-
-  }
- .eco-text1 p {
-    font-size: 12px;
-
-    width: 170px;
-}
- .eco-text1 h1 {
-
-    font-size: 18px;
-}
-/* <!-- solution section --> */
-.solution-container {
-    gap: 0px;
-    height: 100%;
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-.solution-img img {
-    width: 220px;
-  padding-bottom: 40px;
-
-
-  }
-  .solution-text {
-    width: 200px;
-  }
-  .solution-text h1 {
-    padding-bottom: 12px;
-
-    font-size: 24px;
-    line-height: 28px;
-  }
-  
-  .solution-text p {
-    font-size: 14px;
   
   }
-  
-  .solution-btn {
-
-    font-size: 14px;
-  }
-/* testimonial */
-.testimonial-hedaer {
-
-    width: 360px;
-    gap: 24px;
-  }
-.testimonial-hedaer h1 {
-    font-size: 24px;
-  }
-  .testimonial-hedaer p {
-    font-size: 14px;
-  }
-  .test-card img {
-    width: 100px;
-  }
-  .wrapper {
-    gap: 70px;
-  }
-  .test-card {
-
-    font-size: 16px;
-    width: 360px;
-    height: 190px;
-  }
-  .joe {
-
-    font-size: 20px;
-  
-  }
-  /* footer */
-  .footer-container {
-    margin-top: 100px;
-
-    height: 100%;
-  }
-  .head-footer {
-    gap: 0px;
-  }
-  .ftr-flex h1 {
-    font-family: var(--font-lato);
-    font-weight: 400;
-    padding: 6px 10px 6px 10px;
-    font-size: 18px;
-  }
-  .ftr-flex a {
-    font-size: 14px;
-    padding: 6px 10px 6px 10px;
-
-  
-  }
-  .left {
-    width: 130px;
-    font-size: 14px;
-  }
-  .ftr-flex p {
-    font-size: 14px;
-  
-  }
-  .line {
-    width: 350px;
-  }
-  .copywrite {
-    font-size: 16px;
-  }
-  .form {
-    width: 380px;
-    height: 240px;
-  }
-  .form h1 {
-    margin-bottom: 6px;
-    margin-top: 6px;
-    font-size: 24px;
-  }
-  
-  .form p {
-    font-size: 14px;
-    width: 350px;
-  }
-  
-  .form input {
-    width: 200px;
-    height: 55px;
-    font-size: 14px;
-    border-radius: 8px;
-  }
-
-.form .submit {
-    border-radius: 6px;
-    width: 110px;
-    height: 50px;
-    font-size: 14px;
-    margin-bottom: 8px;
-
-  }
-
 }
